@@ -1,0 +1,25 @@
+.contact-content{
+        /* height: 395px; */
+        height: vh;
+
+        /* background-color: royalblue; */
+        /* display: flex; */
+        margin-top: 18px;
+        padding: 14px;
+        position: relative;
+        overflow: hidden;
+}
+    
+.contact-content::after{
+        content: "";
+        background-image: url('../img/white.jpg');
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        opacity: 1;
+        top: 0;
+        z-index: -1;
+}
+
+.contact-form{
+}
